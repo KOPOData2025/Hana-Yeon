@@ -1,0 +1,29 @@
+package com.hanati.open_banking_backend.domain.user.entity;
+
+import com.hanati.open_banking_backend.global.common.BaseEntity;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import lombok.experimental.SuperBuilder;
+
+@Entity
+@Table(name = "OPENBANKING_USER")
+@Data
+@EqualsAndHashCode(callSuper = true)
+@NoArgsConstructor
+@AllArgsConstructor
+@SuperBuilder
+public class User extends BaseEntity {
+    
+    @Id
+    @Column(name = "user_seq_no", length = 50)
+    private String userSeqNo;
+
+    @Column(name = "user_ci", length = 255, nullable = false)
+    private String userCi; // 주민등록번호 SHA-256 해시
+    
+    @Column(name = "user_name", length = 255, nullable = false)
+    private String userName; // 사용자 이름
+} 

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /stock/
+Disallow: /virtual-currency/
+Disallow: /account/
+
+Sitemap: https://myhanati.site/sitemap.xml

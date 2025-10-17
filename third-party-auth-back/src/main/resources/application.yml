@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: third_party_backend
+coolsms:
+  key: ${SMS_KEY}
+  secret: ${SMS_SECRET}
+  num: ${SMS_NUM}
+authentication:
+  salt: ${AUTH_SALT}
+
+server:
+  port: 8085

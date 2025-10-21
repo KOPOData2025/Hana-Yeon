@@ -2,7 +2,8 @@
 
 ### 연금 기반 통합 자산관리 플랫폼
 
-### https://myhanati.site (모바일 앱 최적화)
+### ~~https://myhanati.site (모바일 앱 최적화)~~
+사측 요청으로 내려간 상태입니다.
 
 ![screen1](https://github.com/user-attachments/assets/393369c1-d6ae-4215-9aa6-a60bc6e8c554)
 ![screen2](https://github.com/user-attachments/assets/9eda5bf8-dc19-4b1b-aeba-16838b4a3531)
